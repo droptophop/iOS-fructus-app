@@ -64,8 +64,7 @@ struct FruitDetailView: View {
                 .navigationBarTitle(fruit.title, displayMode: .inline)
                 .navigationBarHidden(true)
             } //: SCROLL
-            .edgesIgnoringSafeArea(.top
-            )
+            .edgesIgnoringSafeArea(.top)
         } //: NAVIGATION
     }
 }
@@ -73,5 +72,6 @@ struct FruitDetailView: View {
 struct FruitDetailView_Previews: PreviewProvider {
     static var previews: some View {
         FruitDetailView(fruit: fruitData[0])
+            .preferredColorScheme(.dark)
     }
 }
