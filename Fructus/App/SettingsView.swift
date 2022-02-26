@@ -46,8 +46,6 @@ struct SettingsView: View {
                         label:
                             SettingsLabelVIew(labelText: "Application", labelImage: "iphone")
                     ) {
-                        Divider().padding(.vertical, 4)
-                        
                         SettingsRowView(name: "Developer", content: "Harry Hopson")
                         SettingsRowView(name: "Designer", content: "Robert Petra")
                         SettingsRowView(name: "Compatibility", content: "iOS 14")
