@@ -81,8 +81,8 @@ struct SettingsView: View {
                         SettingsRowView(name: "Developer", content: "Harry Hopson")
                         SettingsRowView(name: "Designer", content: "Robert Petra")
                         SettingsRowView(name: "Compatibility", content: "iOS 14")
-                        SettingsRowView(name: "Website", linkLabel: "Hopson Ventures", linkDestination: "gohopventure.com")
-                        SettingsRowView(name: "Twitter", linkLabel: "@HopsonVentures", linkDestination: "twitter.com/hopsonventures")
+                        SettingsRowView(name: "Website", linkLabel: "Harry Hopson", linkDestination: "gohopventure.com")
+                        SettingsRowView(name: "Twitter", linkLabel: "@gohopventure", linkDestination: "twitter.com/gohopventure")
                         SettingsRowView(name: "SwiftUI", content: "2.0")
                         SettingsRowView(name: "Version", content: "1.1.0")
                     }
